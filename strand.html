@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Strand | Cassandra Frianeza</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+			font-family: tahoma;
+			color: white;
+		}
+		html, body{
+			height: 100%;
+			width: 100%;
+		}
+		main{
+			height: auto;
+			width: 100%;
+			background-image: linear-gradient(to right, #9869d6, #b79cdb, #b79cdb);
+		}
+		nav{
+			height: 7%;
+			width: 100%;
+			display: flex;
+		}
+		.left{
+			height: 100%;
+			width: 50%;
+		}
+		.right{
+			height: 100%;
+			width: 50%;
+		}
+		.main{
+			height: 93%;
+			width: 100%;
+			margin: auto;
+		}
+		.a{
+			text-decoration: none;
+			font-size: 20px;
+			line-height: 50px;
+			float: right;
+			margin-right: 30px;
+			cursor: pointer;
+			color: white;
+		}
+		.right-text{
+			margin-right: 50px;
+		}
+		.logo{
+			font-size: 30px;
+			line-height: 50px;
+			margin-left: 50px;
+		}
+		.right-box{
+			height: 100%;
+			width: 50%;
+			order: 1;
+		}
+		.left-box{
+			height: 50%;
+			width: 50%;			
+			margin-top: 10%;
+			order: 2;
+		}
+		button{
+			color: black;
+			padding: 10px 30px;
+			font-size: 20px;
+			margin-left: 30px;
+			margin-top: 30px;
+		}
+		iframe{
+			height: 700px;
+			width: 90%;
+			display: block;
+			margin: auto;
+			margin-top: 30px;
+			border: none;
+			outline: none;
+		}
+
+		@media screen and (max-width: 768px){
+			main{
+				height: auto;
+			}
+			.a{
+				font-size: 15px;
+				margin-right: 15px;
+			}
+			.right-text{
+				margin-right: 17px;
+			}
+			.left-box{
+				height: 50%;
+				width: 100%;
+				margin-top: 0;
+			}
+			.right-box{
+				height: 50%;
+				width: 100%;
+				border: 1px solid transparent;
+				margin-top: -100px;
+			}
+			button{
+				padding: 5px 8px;
+				margin-top: 20px;
+				margin-left: 15px;
+			}
+		}
+	</style>
+</head>
+<body>
+<main>
+	<nav>
+		<div class="left"></div>
+		<div class="right">
+			<a class="a" href="cdlb.html" class="right-text">CDLB</a>
+			<a class="a" href="strand.html">Strand</a>
+			<a class="a" href="index.html">Home</a>
+		</div>
+	</nav>
+	<div class="main">
+		<a href="abm.html" target="frame"><button>ABM</button></a>
+		<a href="gas.html" target="frame"><button>GAS</button></a>
+		<a href="ict.html" target="frame"><button>ICT</button></a>
+		<a href="humss.html" target="frame"><button>HUMSS</button></a>
+		<a href="stem.html" target="frame"><button>STEM</button></a>
+	<iframe src="select.html" name="frame"></iframe>
+	</div>
+</main>
+</body>
+</html>
